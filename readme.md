@@ -21,8 +21,8 @@ npm install fwords
 
 In CoffeeScript:
 
-	fwords = require 'fwords'
-	console.log fwords.en.aux
+	require('../index') (fwords) -> 
+		console.log fwords.en.aux
 	> ['be able to', 'can', 'could', 'dare', 'had better', 'have to', 'may', 'might', 'must', 'need to', 'ought', 'ought to', 'shall', 'should', 'used to', 'will', 'would']
 
 ## Acknowledgments
