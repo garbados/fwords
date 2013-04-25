@@ -1,12 +1,12 @@
 # Function Words
 
-Compilation of function words in different languages, with some access methods in JavaScript / CoffeeScript. As of this writing, only English function words are listed.
+Compilation of function words in different languages, with some access methods in JavaScript. As of this writing, only English function words are listed.
 
 While the lists aspire to be exhaustive, language is far too squishy for that. As such, contributions are welcome, encouraged, and occasionally begged for.
 
 ## Install
 
-npm install fwords
+	npm install fwords
 
 ## Usage
 
