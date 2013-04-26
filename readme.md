@@ -21,9 +21,11 @@ While the lists aspire to be exhaustive, language is far too squishy for that. A
 
 In CoffeeScript:
 
-	require('../index') (fwords) -> 
+	require('fwords') (fwords) -> 
 		console.log fwords.en.aux
 	> ['be able to', 'can', 'could', 'dare', 'had better', 'have to', 'may', 'might', 'must', 'need to', 'ought', 'ought to', 'shall', 'should', 'used to', 'will', 'would']
+		console.log fwords.total('en').length
+	> 342
 
 ## Acknowledgments
 
